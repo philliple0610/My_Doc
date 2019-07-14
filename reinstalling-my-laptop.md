@@ -63,17 +63,17 @@ java --version
 ```
 cd ~/Documents/git
 git clone git@github.com:philliple0610/My_Minecraft.git
+cd -r ~/Documents/git/My_Minecraft/minecraft ~/
+cd -r ~/Documents/git/My_Minecraft/.minecraft ~/
 ```
--Make a directory for Minecraft (so that you can open minecraft)
-
+-Make a directory for Minecraft (first time only)
 ```
 mkdir ~/minecraft
 cp ~/Download/Minecraft.jar ~/minecraft/
 ```
 -Do this when your done (to open Minecraft)
 ```
-cd minecraft/ <- first this one
+cd ~/minecraft/ 
 
-java -jar Minecraft.jar <-then this one
+java -jar Minecraft.jar
 ```
--Running Minecraft on Ubuntu: https://www.lynda.com/articles/running-minecraft-ubuntu-linux
