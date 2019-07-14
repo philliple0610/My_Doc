@@ -41,7 +41,7 @@ vi ~/.ssh/id_rsa.pub
 
 -Clone my repository
 ```
-git clone 
+git clone git@github.com:philliple0610/My_Doc.git
 ```
 
 
