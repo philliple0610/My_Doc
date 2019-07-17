@@ -59,7 +59,20 @@ java --version
 
 -Download Minecraft.jar from https://minecraft.net/en-us/download/
 
--Get my minecraft files
+#### Backup my Minecraft
+```
+cd
+tar -czvf .minecraft.tar.gz .minecraft
+tar -czvf minecraft.tar.gz minecraft
+cp .minecraft ~/Documents/git/My_Files/
+cp minecraft ~/Documents/git/My_Files/
+cd ~/Documents/git/My_Files/
+git status
+git add -A
+git commit -am "Blah Blah Blah"
+git push
+```
+#### Get my minecraft files
 ```
 cd ~/Documents/git
 git clone git@github.com:philliple0610/My_Minecraft.git
